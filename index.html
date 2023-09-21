@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weights</title>
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/eb3f0bc080.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <header>
+      <!-- Navbar -->
+      <nav id="nav-bar">
+        <input onclick="lockScroll()" type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i onclick="myFunction(this)" class="fas fa-bars"></i>
+        </label>
+
+        <a href="index.html" id="logo-name">Weights</a>
+        <ul id="menu">
+          <li><a href="classes.html" class="nav-link">Classes</a></li>
+          <li>
+            <a href="personal-workout.html" class="nav-link"
+              >Personal Workouts</a
+            >
+          </li>
+          <li><a href="plans.html" class="nav-link">Plans</a></li>
+          <li><a href="schedule.html" class="nav-link">Schedule</a></li>
+          <li><a href="signup.html" class="nav-link">Sign up</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-content">
+        <h1>It's all about what you can achieve.</h1>
+        <p>Empower yourself to make the changes you need to make.</p>
+        <a href="plans.html"><button>Let's Get Started</button></a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Popular Classes</h2>
+
+      <div class="container">
+        <div class="container-item">
+          <img src="images/cardio.avif" alt="" />
+          <h3>Cardio</h3>
+        </div>
+
+        <div class="container-item">
+          <img src="images/air-yoga.avif" alt="" />
+          <h3>Air Yoga</h3>
+        </div>
+
+        <div class="container-item">
+          <img src="images/lifting.avif" alt="" />
+          <h3>Lifting</h3>
+        </div>
+
+        <div class="container-item">
+          <img src="images/press.avif" alt="" />
+          <h3>Press & Back</h3>
+        </div>
+      </div>
+      <a href="classes.html"><button>Check All Classes</button></a>
+    </section>
+
+    <!-- Article -->
+
+    <article>
+      <div class="article-about">
+        <h2>About Weights</h2>
+        <p>
+          We're not here to carry you to fitness, we're here to motivate you to
+          carry yourself to your goals.
+          <br /><br />
+          If you're not sure what your goals are, or don't know where to start
+          on your fitness journey, come in and speak to one of our qualified
+          trainers who can help you develop a plan.
+        </p>
+        <a href="schedule.html"><button>Schedule</button></a>
+      </div>
+
+      <div class="article-classes">
+        <h2>Classes</h2>
+        <p>
+          We host dozens of classes every day, from deadlifting and HIIT to yoga
+          and pilates. We also have different classes for varying levels of
+          ability.
+          <br /><br />
+          Check out our individual class pages to see what's on when, and stop
+          on by for a chat if you want to see how we do things.
+        </p>
+        <a href="classes.html"><button>Classes</button></a>
+      </div>
+    </article>
+
+    <!-- CTA -->
+    <main>
+      <h2>Are you ready for changes?</h2>
+      <a href="signup.html"><button>Make it happen</button></a>
+    </main>
+
+    <footer>
+      <div class="top">
+        <div class="working-hours">
+          <h2>Working Hours</h2>
+          <p>Monday - Friday 5:00 AM - 12:00 AM</p>
+          <p>Sunday - Saturday 8:00 AM - 10:00 PM</p>
+        </div>
+
+        <div class="address">
+          <h2>Address</h2>
+          <p>
+            661 Sulphur Springs Ave.
+            <br />
+            Bronx, NY 10465
+          </p>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="socials">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+
+        <p>© Copyright Weights 2022. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
